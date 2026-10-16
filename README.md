@@ -69,8 +69,6 @@ whose prompt tells it when to ask and when to wait, and starts a worker.
 [`src/client.ts`](src/client.ts) sends one message and handles the run's
 events as they arrive.
 
-Until `norns-sdk` is on npm, `package.json` points at the GitHub repo.
-
 ## License
 
 MIT

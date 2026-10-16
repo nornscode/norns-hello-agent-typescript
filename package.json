@@ -5,7 +5,9 @@
   "description": "Hello-world agent built on Norns.",
   "license": "MIT",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "worker": "tsx src/worker.ts",
     "client": "tsx src/client.ts",
@@ -13,7 +15,7 @@
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.0",
-    "norns-sdk": "github:nornscode/norns-sdk-typescript",
+    "norns-sdk": "^0.1.0",
     "zod": "^4.0.0"
   },
   "devDependencies": {
