@@ -1,0 +1,24 @@
+{
+  "name": "hello-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hello-world agent built on Norns.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "worker": "tsx src/worker.ts",
+    "client": "tsx src/client.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.0",
+    "norns-sdk": "github:nornscode/norns-sdk-typescript",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.0"
+  }
+}
