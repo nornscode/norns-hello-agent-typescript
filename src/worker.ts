@@ -35,7 +35,6 @@ const helloBot = defineAgent({
     "say_hello tool with that name.",
   ].join("\n"),
   tools: [sayHello],
-  mode: "conversation",
 });
 
 // Connects, registers hello-bot, and serves it. Reads NORNS_API_KEY and
